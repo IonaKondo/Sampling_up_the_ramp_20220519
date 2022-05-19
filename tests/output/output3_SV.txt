@@ -1,0 +1,119 @@
+I use the same program as output.txt3, but I print the parameters and output parameters(*S,*V) in the Integral function.
+I have tested and modified the code using three 5pixels*5pixels sample fits files.
+These fits files have uniform flux, 1000, 5000, 9000, respectively (int16).
+
+When the number of samples is two, *S= 16000, *V= 50000;
+When the number of samples is three, *S= 16000, *V= 20500. 
+
+
+
+[kondo@moao38 fitsutil]$ ./Up-the-Ramp_test3 -frame make_fits11.fits make_fits12.fits make_fits13.fits
+
+
+---Start ramp fitting using 1 samples--------------------
+Seeing fits file no.1
+make_fits11.fits 5 5
+ndata= 25
+Before Integral: where is the adress: D_adress= 0x144b1b0 ds_address=0x144b1b0 
+
+
+---Start ramp fitting using 2 samples--------------------
+Seeing fits file no.2
+make_fits12.fits 5 5
+ndata= 25
+Before Integral: where is the adress: D_adress= 0x144b1b0 ds_address=0x144b1b0 
+
+
+LOOP1 1st sample begin
+1st where is the adress: D_adress= 0x144b1b0 ds_address=0x144b1b0 
+LOOP1 1st sample end
+
+LOOP2 Next sample begin
+LOOP2 Next sample end
+
+LOOP3 Make Output begin
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+Parameters: P->s= 4000, z= 4000, m= 1, t= 1, x= 16000  Output: S= 16000, V= 50000
+LOOP3 Make Output end
+
+1 S= 50000 V= 50000  //it should be ignored. 
+DS= 50000 
+After Integral1: where is the adress: D_adress= 0x144b290 ds_address=0x21 
+---End ramp fitting using 2 samples-------------------
+
+
+
+
+---Start ramp fitting using 3 samples--------------------
+Seeing fits file no.3
+make_fits13.fits 5 5
+ndata= 25
+Before Integral: where is the adress: D_adress= 0x21 ds_address=0x144b1b0 
+
+
+LOOP1 1st sample begin
+1st where is the adress: D_adress= 0x21 ds_address=0x144b1b0 
+LOOP1 1st sample end
+
+LOOP2 Next sample begin
+LOOP2 Next sample end
+
+LOOP3 Make Output begin
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+Parameters: P->s= 16000, z= 8000, m= 2, t= 4, x= 16000  Output: S= 16000, V= 20500
+LOOP3 Make Output end
+
+1 S= 20500 V= 20500  //it should be ignored.    
+DS= 20500 
+After Integral1: where is the adress: D_adress= 0x21 ds_address=0x6568742d70552f2e 
+---End ramp fitting using 3 samples-------------------
+
+
+Segmentation fault
+

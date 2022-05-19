@@ -1,0 +1,462 @@
+[kondo@moao38 fitsutil]$ ./Up-the-Ramp_test -frame make_fits11.fits make_fits12.fits make_fits13.fits 
+make_fits12.fits 5 5
+flag1 width= 5, height= 5, nPixels=25
+
+
+---Start ramp fitting using 1 samples--------------------
+Seeing fits file no.1
+make_fits11.fits 5 5
+flag2 width= 5, height= 5, nPixels=25
+
+flag2 *D=value[0]= 1000 
+flag2 *D=value[1]= 1000 
+flag2 *D=value[2]= 1000 
+flag2 *D=value[3]= 1000 
+flag2 *D=value[4]= 1000 
+flag2 *D=value[5]= 1000 
+flag2 *D=value[6]= 1000 
+flag2 *D=value[7]= 1000 
+flag2 *D=value[8]= 1000 
+flag2 *D=value[9]= 1000 
+flag2 *D=value[10]= 1000 
+flag2 *D=value[11]= 1000 
+flag2 *D=value[12]= 1000 
+flag2 *D=value[13]= 1000 
+flag2 *D=value[14]= 1000 
+flag2 *D=value[15]= 1000 
+flag2 *D=value[16]= 1000 
+flag2 *D=value[17]= 1000 
+flag2 *D=value[18]= 1000 
+flag2 *D=value[19]= 1000 
+flag2 *D=value[20]= 1000 
+flag2 *D=value[21]= 1000 
+flag2 *D=value[22]= 1000 
+flag2 *D=value[23]= 1000 
+flag2 *D=value[24]= 1000 
+ndata= 25
+flag3 where is the adress: D_adress= 0x1478f30 ds_address=0x1478f30 
+1st sample begin
+1st where is the adress: D_adress= 0x1478f30 ds_address=0x1478f30 
+LOOP1 where is the adress: D_adress= 0x1478f34 ds_address=0x1478f34 
+LOOP1 where is the adress: D_adress= 0x1478f38 ds_address=0x1478f38 
+LOOP1 where is the adress: D_adress= 0x1478f3c ds_address=0x1478f3c 
+LOOP1 where is the adress: D_adress= 0x1478f40 ds_address=0x1478f40 
+LOOP1 where is the adress: D_adress= 0x1478f44 ds_address=0x1478f44 
+LOOP1 where is the adress: D_adress= 0x1478f48 ds_address=0x1478f48 
+LOOP1 where is the adress: D_adress= 0x1478f4c ds_address=0x1478f4c 
+LOOP1 where is the adress: D_adress= 0x1478f50 ds_address=0x1478f50 
+LOOP1 where is the adress: D_adress= 0x1478f54 ds_address=0x1478f54 
+LOOP1 where is the adress: D_adress= 0x1478f58 ds_address=0x1478f58 
+LOOP1 where is the adress: D_adress= 0x1478f5c ds_address=0x1478f5c 
+LOOP1 where is the adress: D_adress= 0x1478f60 ds_address=0x1478f60 
+LOOP1 where is the adress: D_adress= 0x1478f64 ds_address=0x1478f64 
+LOOP1 where is the adress: D_adress= 0x1478f68 ds_address=0x1478f68 
+LOOP1 where is the adress: D_adress= 0x1478f6c ds_address=0x1478f6c 
+LOOP1 where is the adress: D_adress= 0x1478f70 ds_address=0x1478f70 
+LOOP1 where is the adress: D_adress= 0x1478f74 ds_address=0x1478f74 
+LOOP1 where is the adress: D_adress= 0x1478f78 ds_address=0x1478f78 
+LOOP1 where is the adress: D_adress= 0x1478f7c ds_address=0x1478f7c 
+LOOP1 where is the adress: D_adress= 0x1478f80 ds_address=0x1478f80 
+LOOP1 where is the adress: D_adress= 0x1478f84 ds_address=0x1478f84 
+LOOP1 where is the adress: D_adress= 0x1478f88 ds_address=0x1478f88 
+LOOP1 where is the adress: D_adress= 0x1478f8c ds_address=0x1478f8c 
+LOOP1 where is the adress: D_adress= 0x1478f90 ds_address=0x1478f90 
+LOOP1 where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+1st sample end
+
+Next sample begin
+Next where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+Next sample end
+
+Make Output begin
+LOOP3 test2= 0, M= 7514752,P= 7514752 Q= 7515552
+LOOP3 test2= 1, M= 7514752,P= 7514784 Q= 7515552
+LOOP3 test2= 2, M= 7514752,P= 7514816 Q= 7515552
+LOOP3 test2= 3, M= 7514752,P= 7514848 Q= 7515552
+LOOP3 test2= 4, M= 7514752,P= 7514880 Q= 7515552
+LOOP3 test2= 5, M= 7514752,P= 7514912 Q= 7515552
+LOOP3 test2= 6, M= 7514752,P= 7514944 Q= 7515552
+LOOP3 test2= 7, M= 7514752,P= 7514976 Q= 7515552
+LOOP3 test2= 8, M= 7514752,P= 7515008 Q= 7515552
+LOOP3 test2= 9, M= 7514752,P= 7515040 Q= 7515552
+LOOP3 test2= 10, M= 7514752,P= 7515072 Q= 7515552
+LOOP3 test2= 11, M= 7514752,P= 7515104 Q= 7515552
+LOOP3 test2= 12, M= 7514752,P= 7515136 Q= 7515552
+LOOP3 test2= 13, M= 7514752,P= 7515168 Q= 7515552
+LOOP3 test2= 14, M= 7514752,P= 7515200 Q= 7515552
+LOOP3 test2= 15, M= 7514752,P= 7515232 Q= 7515552
+LOOP3 test2= 16, M= 7514752,P= 7515264 Q= 7515552
+LOOP3 test2= 17, M= 7514752,P= 7515296 Q= 7515552
+LOOP3 test2= 18, M= 7514752,P= 7515328 Q= 7515552
+LOOP3 test2= 19, M= 7514752,P= 7515360 Q= 7515552
+LOOP3 test2= 20, M= 7514752,P= 7515392 Q= 7515552
+LOOP3 test2= 21, M= 7514752,P= 7515424 Q= 7515552
+LOOP3 test2= 22, M= 7514752,P= 7515456 Q= 7515552
+LOOP3 test2= 23, M= 7514752,P= 7515488 Q= 7515552
+LOOP3 test2= 24, M= 7514752,P= 7515520 Q= 7515552
+Make Output end
+
+n= 1
+1 S= 18000 V= 18000 
+2 S= 2026402484 V= 2026402480 
+DS= 2026402484 
+---End ramp fitting using 1 samples-------------------
+
+
+
+
+---Start ramp fitting using 2 samples--------------------
+Seeing fits file no.2
+make_fits12.fits 5 5
+flag2 width= 5, height= 5, nPixels=25
+
+flag2 *D=value[25]= 5000 
+flag2 *D=value[26]= 5000 
+flag2 *D=value[27]= 5000 
+flag2 *D=value[28]= 5000 
+flag2 *D=value[29]= 5000 
+flag2 *D=value[30]= 5000 
+flag2 *D=value[31]= 5000 
+flag2 *D=value[32]= 5000 
+flag2 *D=value[33]= 5000 
+flag2 *D=value[34]= 5000 
+flag2 *D=value[35]= 5000 
+flag2 *D=value[36]= 5000 
+flag2 *D=value[37]= 5000 
+flag2 *D=value[38]= 5000 
+flag2 *D=value[39]= 5000 
+flag2 *D=value[40]= 5000 
+flag2 *D=value[41]= 5000 
+flag2 *D=value[42]= 5000 
+flag2 *D=value[43]= 5000 
+flag2 *D=value[44]= 5000 
+flag2 *D=value[45]= 5000 
+flag2 *D=value[46]= 5000 
+flag2 *D=value[47]= 5000 
+flag2 *D=value[48]= 5000 
+flag2 *D=value[49]= 5000 
+ndata= 50
+flag3 where is the adress: D_adress= 0x1478f30 ds_address=0x1478f30 
+1st sample begin
+1st where is the adress: D_adress= 0x1478f30 ds_address=0x1478f30 
+LOOP1 where is the adress: D_adress= 0x1478f34 ds_address=0x1478f34 
+LOOP1 where is the adress: D_adress= 0x1478f38 ds_address=0x1478f38 
+LOOP1 where is the adress: D_adress= 0x1478f3c ds_address=0x1478f3c 
+LOOP1 where is the adress: D_adress= 0x1478f40 ds_address=0x1478f40 
+LOOP1 where is the adress: D_adress= 0x1478f44 ds_address=0x1478f44 
+LOOP1 where is the adress: D_adress= 0x1478f48 ds_address=0x1478f48 
+LOOP1 where is the adress: D_adress= 0x1478f4c ds_address=0x1478f4c 
+LOOP1 where is the adress: D_adress= 0x1478f50 ds_address=0x1478f50 
+LOOP1 where is the adress: D_adress= 0x1478f54 ds_address=0x1478f54 
+LOOP1 where is the adress: D_adress= 0x1478f58 ds_address=0x1478f58 
+LOOP1 where is the adress: D_adress= 0x1478f5c ds_address=0x1478f5c 
+LOOP1 where is the adress: D_adress= 0x1478f60 ds_address=0x1478f60 
+LOOP1 where is the adress: D_adress= 0x1478f64 ds_address=0x1478f64 
+LOOP1 where is the adress: D_adress= 0x1478f68 ds_address=0x1478f68 
+LOOP1 where is the adress: D_adress= 0x1478f6c ds_address=0x1478f6c 
+LOOP1 where is the adress: D_adress= 0x1478f70 ds_address=0x1478f70 
+LOOP1 where is the adress: D_adress= 0x1478f74 ds_address=0x1478f74 
+LOOP1 where is the adress: D_adress= 0x1478f78 ds_address=0x1478f78 
+LOOP1 where is the adress: D_adress= 0x1478f7c ds_address=0x1478f7c 
+LOOP1 where is the adress: D_adress= 0x1478f80 ds_address=0x1478f80 
+LOOP1 where is the adress: D_adress= 0x1478f84 ds_address=0x1478f84 
+LOOP1 where is the adress: D_adress= 0x1478f88 ds_address=0x1478f88 
+LOOP1 where is the adress: D_adress= 0x1478f8c ds_address=0x1478f8c 
+LOOP1 where is the adress: D_adress= 0x1478f90 ds_address=0x1478f90 
+LOOP1 where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+1st sample end
+
+Next sample begin
+Next where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+NextIn where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+LOOP2 n= 1, test4= 0, M= 7514752, P= 7514752, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478f98 ds_address=0x1478f98 
+LOOP2 n= 1, test4= 1, M= 7514752, P= 7514784, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478f9c ds_address=0x1478f9c 
+LOOP2 n= 1, test4= 2, M= 7514752, P= 7514816, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fa0 ds_address=0x1478fa0 
+LOOP2 n= 1, test4= 3, M= 7514752, P= 7514848, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fa4 ds_address=0x1478fa4 
+LOOP2 n= 1, test4= 4, M= 7514752, P= 7514880, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fa8 ds_address=0x1478fa8 
+LOOP2 n= 1, test4= 5, M= 7514752, P= 7514912, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fac ds_address=0x1478fac 
+LOOP2 n= 1, test4= 6, M= 7514752, P= 7514944, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fb0 ds_address=0x1478fb0 
+LOOP2 n= 1, test4= 7, M= 7514752, P= 7514976, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fb4 ds_address=0x1478fb4 
+LOOP2 n= 1, test4= 8, M= 7514752, P= 7515008, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fb8 ds_address=0x1478fb8 
+LOOP2 n= 1, test4= 9, M= 7514752, P= 7515040, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fbc ds_address=0x1478fbc 
+LOOP2 n= 1, test4= 10, M= 7514752, P= 7515072, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fc0 ds_address=0x1478fc0 
+LOOP2 n= 1, test4= 11, M= 7514752, P= 7515104, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fc4 ds_address=0x1478fc4 
+LOOP2 n= 1, test4= 12, M= 7514752, P= 7515136, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fc8 ds_address=0x1478fc8 
+LOOP2 n= 1, test4= 13, M= 7514752, P= 7515168, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fcc ds_address=0x1478fcc 
+LOOP2 n= 1, test4= 14, M= 7514752, P= 7515200, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fd0 ds_address=0x1478fd0 
+LOOP2 n= 1, test4= 15, M= 7514752, P= 7515232, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fd4 ds_address=0x1478fd4 
+LOOP2 n= 1, test4= 16, M= 7514752, P= 7515264, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fd8 ds_address=0x1478fd8 
+LOOP2 n= 1, test4= 17, M= 7514752, P= 7515296, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fdc ds_address=0x1478fdc 
+LOOP2 n= 1, test4= 18, M= 7514752, P= 7515328, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fe0 ds_address=0x1478fe0 
+LOOP2 n= 1, test4= 19, M= 7514752, P= 7515360, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fe4 ds_address=0x1478fe4 
+LOOP2 n= 1, test4= 20, M= 7514752, P= 7515392, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fe8 ds_address=0x1478fe8 
+LOOP2 n= 1, test4= 21, M= 7514752, P= 7515424, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fec ds_address=0x1478fec 
+LOOP2 n= 1, test4= 22, M= 7514752, P= 7515456, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478ff0 ds_address=0x1478ff0 
+LOOP2 n= 1, test4= 23, M= 7514752, P= 7515488, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478ff4 ds_address=0x1478ff4 
+LOOP2 n= 1, test4= 24, M= 7514752, P= 7515520, Q= 7515552
+Next sample end
+
+Make Output begin
+LOOP3 test2= 0, M= 7514752,P= 7514752 Q= 7515552
+LOOP3 test2= 1, M= 7514752,P= 7514784 Q= 7515552
+LOOP3 test2= 2, M= 7514752,P= 7514816 Q= 7515552
+LOOP3 test2= 3, M= 7514752,P= 7514848 Q= 7515552
+LOOP3 test2= 4, M= 7514752,P= 7514880 Q= 7515552
+LOOP3 test2= 5, M= 7514752,P= 7514912 Q= 7515552
+LOOP3 test2= 6, M= 7514752,P= 7514944 Q= 7515552
+LOOP3 test2= 7, M= 7514752,P= 7514976 Q= 7515552
+LOOP3 test2= 8, M= 7514752,P= 7515008 Q= 7515552
+LOOP3 test2= 9, M= 7514752,P= 7515040 Q= 7515552
+LOOP3 test2= 10, M= 7514752,P= 7515072 Q= 7515552
+LOOP3 test2= 11, M= 7514752,P= 7515104 Q= 7515552
+LOOP3 test2= 12, M= 7514752,P= 7515136 Q= 7515552
+LOOP3 test2= 13, M= 7514752,P= 7515168 Q= 7515552
+LOOP3 test2= 14, M= 7514752,P= 7515200 Q= 7515552
+LOOP3 test2= 15, M= 7514752,P= 7515232 Q= 7515552
+LOOP3 test2= 16, M= 7514752,P= 7515264 Q= 7515552
+LOOP3 test2= 17, M= 7514752,P= 7515296 Q= 7515552
+LOOP3 test2= 18, M= 7514752,P= 7515328 Q= 7515552
+LOOP3 test2= 19, M= 7514752,P= 7515360 Q= 7515552
+LOOP3 test2= 20, M= 7514752,P= 7515392 Q= 7515552
+LOOP3 test2= 21, M= 7514752,P= 7515424 Q= 7515552
+LOOP3 test2= 22, M= 7514752,P= 7515456 Q= 7515552
+LOOP3 test2= 23, M= 7514752,P= 7515488 Q= 7515552
+LOOP3 test2= 24, M= 7514752,P= 7515520 Q= 7515552
+Make Output end
+
+n= 2
+1 S= 50000 V= 50000 
+2 S= 2026402484 V= 2026402480 
+DS= 2026402484 
+---End ramp fitting using 2 samples-------------------
+
+
+
+
+---Start ramp fitting using 3 samples--------------------
+Seeing fits file no.3
+make_fits13.fits 5 5
+flag2 width= 5, height= 5, nPixels=25
+
+flag2 *D=value[50]= 9000 
+flag2 *D=value[51]= 9000 
+flag2 *D=value[52]= 9000 
+flag2 *D=value[53]= 9000 
+flag2 *D=value[54]= 9000 
+flag2 *D=value[55]= 9000 
+flag2 *D=value[56]= 9000 
+flag2 *D=value[57]= 9000 
+flag2 *D=value[58]= 9000 
+flag2 *D=value[59]= 9000 
+flag2 *D=value[60]= 9000 
+flag2 *D=value[61]= 9000 
+flag2 *D=value[62]= 9000 
+flag2 *D=value[63]= 9000 
+flag2 *D=value[64]= 9000 
+flag2 *D=value[65]= 9000 
+flag2 *D=value[66]= 9000 
+flag2 *D=value[67]= 9000 
+flag2 *D=value[68]= 9000 
+flag2 *D=value[69]= 9000 
+flag2 *D=value[70]= 9000 
+flag2 *D=value[71]= 9000 
+flag2 *D=value[72]= 9000 
+flag2 *D=value[73]= 9000 
+flag2 *D=value[74]= 9000 
+ndata= 75
+flag3 where is the adress: D_adress= 0x1478f30 ds_address=0x1478f30 
+1st sample begin
+1st where is the adress: D_adress= 0x1478f30 ds_address=0x1478f30 
+LOOP1 where is the adress: D_adress= 0x1478f34 ds_address=0x1478f34 
+LOOP1 where is the adress: D_adress= 0x1478f38 ds_address=0x1478f38 
+LOOP1 where is the adress: D_adress= 0x1478f3c ds_address=0x1478f3c 
+LOOP1 where is the adress: D_adress= 0x1478f40 ds_address=0x1478f40 
+LOOP1 where is the adress: D_adress= 0x1478f44 ds_address=0x1478f44 
+LOOP1 where is the adress: D_adress= 0x1478f48 ds_address=0x1478f48 
+LOOP1 where is the adress: D_adress= 0x1478f4c ds_address=0x1478f4c 
+LOOP1 where is the adress: D_adress= 0x1478f50 ds_address=0x1478f50 
+LOOP1 where is the adress: D_adress= 0x1478f54 ds_address=0x1478f54 
+LOOP1 where is the adress: D_adress= 0x1478f58 ds_address=0x1478f58 
+LOOP1 where is the adress: D_adress= 0x1478f5c ds_address=0x1478f5c 
+LOOP1 where is the adress: D_adress= 0x1478f60 ds_address=0x1478f60 
+LOOP1 where is the adress: D_adress= 0x1478f64 ds_address=0x1478f64 
+LOOP1 where is the adress: D_adress= 0x1478f68 ds_address=0x1478f68 
+LOOP1 where is the adress: D_adress= 0x1478f6c ds_address=0x1478f6c 
+LOOP1 where is the adress: D_adress= 0x1478f70 ds_address=0x1478f70 
+LOOP1 where is the adress: D_adress= 0x1478f74 ds_address=0x1478f74 
+LOOP1 where is the adress: D_adress= 0x1478f78 ds_address=0x1478f78 
+LOOP1 where is the adress: D_adress= 0x1478f7c ds_address=0x1478f7c 
+LOOP1 where is the adress: D_adress= 0x1478f80 ds_address=0x1478f80 
+LOOP1 where is the adress: D_adress= 0x1478f84 ds_address=0x1478f84 
+LOOP1 where is the adress: D_adress= 0x1478f88 ds_address=0x1478f88 
+LOOP1 where is the adress: D_adress= 0x1478f8c ds_address=0x1478f8c 
+LOOP1 where is the adress: D_adress= 0x1478f90 ds_address=0x1478f90 
+LOOP1 where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+1st sample end
+
+Next sample begin
+Next where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+NextIn where is the adress: D_adress= 0x1478f94 ds_address=0x1478f94 
+LOOP2 n= 2, test4= 0, M= 7514752, P= 7514752, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478f98 ds_address=0x1478f98 
+LOOP2 n= 2, test4= 1, M= 7514752, P= 7514784, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478f9c ds_address=0x1478f9c 
+LOOP2 n= 2, test4= 2, M= 7514752, P= 7514816, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fa0 ds_address=0x1478fa0 
+LOOP2 n= 2, test4= 3, M= 7514752, P= 7514848, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fa4 ds_address=0x1478fa4 
+LOOP2 n= 2, test4= 4, M= 7514752, P= 7514880, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fa8 ds_address=0x1478fa8 
+LOOP2 n= 2, test4= 5, M= 7514752, P= 7514912, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fac ds_address=0x1478fac 
+LOOP2 n= 2, test4= 6, M= 7514752, P= 7514944, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fb0 ds_address=0x1478fb0 
+LOOP2 n= 2, test4= 7, M= 7514752, P= 7514976, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fb4 ds_address=0x1478fb4 
+LOOP2 n= 2, test4= 8, M= 7514752, P= 7515008, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fb8 ds_address=0x1478fb8 
+LOOP2 n= 2, test4= 9, M= 7514752, P= 7515040, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fbc ds_address=0x1478fbc 
+LOOP2 n= 2, test4= 10, M= 7514752, P= 7515072, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fc0 ds_address=0x1478fc0 
+LOOP2 n= 2, test4= 11, M= 7514752, P= 7515104, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fc4 ds_address=0x1478fc4 
+LOOP2 n= 2, test4= 12, M= 7514752, P= 7515136, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fc8 ds_address=0x1478fc8 
+LOOP2 n= 2, test4= 13, M= 7514752, P= 7515168, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fcc ds_address=0x1478fcc 
+LOOP2 n= 2, test4= 14, M= 7514752, P= 7515200, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fd0 ds_address=0x1478fd0 
+LOOP2 n= 2, test4= 15, M= 7514752, P= 7515232, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fd4 ds_address=0x1478fd4 
+LOOP2 n= 2, test4= 16, M= 7514752, P= 7515264, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fd8 ds_address=0x1478fd8 
+LOOP2 n= 2, test4= 17, M= 7514752, P= 7515296, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fdc ds_address=0x1478fdc 
+LOOP2 n= 2, test4= 18, M= 7514752, P= 7515328, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fe0 ds_address=0x1478fe0 
+LOOP2 n= 2, test4= 19, M= 7514752, P= 7515360, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fe4 ds_address=0x1478fe4 
+LOOP2 n= 2, test4= 20, M= 7514752, P= 7515392, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fe8 ds_address=0x1478fe8 
+LOOP2 n= 2, test4= 21, M= 7514752, P= 7515424, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478fec ds_address=0x1478fec 
+LOOP2 n= 2, test4= 22, M= 7514752, P= 7515456, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478ff0 ds_address=0x1478ff0 
+LOOP2 n= 2, test4= 23, M= 7514752, P= 7515488, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478ff4 ds_address=0x1478ff4 
+LOOP2 n= 2, test4= 24, M= 7514752, P= 7515520, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478ff8 ds_address=0x1478ff8 
+LOOP2 n= 1, test4= 25, M= 7514752, P= 7514752, Q= 7515552
+NextIn where is the adress: D_adress= 0x1478ffc ds_address=0x1478ffc 
+LOOP2 n= 1, test4= 26, M= 7514752, P= 7514784, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479000 ds_address=0x1479000 
+LOOP2 n= 1, test4= 27, M= 7514752, P= 7514816, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479004 ds_address=0x1479004 
+LOOP2 n= 1, test4= 28, M= 7514752, P= 7514848, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479008 ds_address=0x1479008 
+LOOP2 n= 1, test4= 29, M= 7514752, P= 7514880, Q= 7515552
+NextIn where is the adress: D_adress= 0x147900c ds_address=0x147900c 
+LOOP2 n= 1, test4= 30, M= 7514752, P= 7514912, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479010 ds_address=0x1479010 
+LOOP2 n= 1, test4= 31, M= 7514752, P= 7514944, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479014 ds_address=0x1479014 
+LOOP2 n= 1, test4= 32, M= 7514752, P= 7514976, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479018 ds_address=0x1479018 
+LOOP2 n= 1, test4= 33, M= 7514752, P= 7515008, Q= 7515552
+NextIn where is the adress: D_adress= 0x147901c ds_address=0x147901c 
+LOOP2 n= 1, test4= 34, M= 7514752, P= 7515040, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479020 ds_address=0x1479020 
+LOOP2 n= 1, test4= 35, M= 7514752, P= 7515072, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479024 ds_address=0x1479024 
+LOOP2 n= 1, test4= 36, M= 7514752, P= 7515104, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479028 ds_address=0x1479028 
+LOOP2 n= 1, test4= 37, M= 7514752, P= 7515136, Q= 7515552
+NextIn where is the adress: D_adress= 0x147902c ds_address=0x147902c 
+LOOP2 n= 1, test4= 38, M= 7514752, P= 7515168, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479030 ds_address=0x1479030 
+LOOP2 n= 1, test4= 39, M= 7514752, P= 7515200, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479034 ds_address=0x1479034 
+LOOP2 n= 1, test4= 40, M= 7514752, P= 7515232, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479038 ds_address=0x1479038 
+LOOP2 n= 1, test4= 41, M= 7514752, P= 7515264, Q= 7515552
+NextIn where is the adress: D_adress= 0x147903c ds_address=0x147903c 
+LOOP2 n= 1, test4= 42, M= 7514752, P= 7515296, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479040 ds_address=0x1479040 
+LOOP2 n= 1, test4= 43, M= 7514752, P= 7515328, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479044 ds_address=0x1479044 
+LOOP2 n= 1, test4= 44, M= 7514752, P= 7515360, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479048 ds_address=0x1479048 
+LOOP2 n= 1, test4= 45, M= 7514752, P= 7515392, Q= 7515552
+NextIn where is the adress: D_adress= 0x147904c ds_address=0x147904c 
+LOOP2 n= 1, test4= 46, M= 7514752, P= 7515424, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479050 ds_address=0x1479050 
+LOOP2 n= 1, test4= 47, M= 7514752, P= 7515456, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479054 ds_address=0x1479054 
+LOOP2 n= 1, test4= 48, M= 7514752, P= 7515488, Q= 7515552
+NextIn where is the adress: D_adress= 0x1479058 ds_address=0x1479058 
+LOOP2 n= 1, test4= 49, M= 7514752, P= 7515520, Q= 7515552
+Next sample end
+
+Make Output begin
+LOOP3 test2= 0, M= 7514752,P= 7514752 Q= 7515552
+LOOP3 test2= 1, M= 7514752,P= 7514784 Q= 7515552
+LOOP3 test2= 2, M= 7514752,P= 7514816 Q= 7515552
+LOOP3 test2= 3, M= 7514752,P= 7514848 Q= 7515552
+LOOP3 test2= 4, M= 7514752,P= 7514880 Q= 7515552
+LOOP3 test2= 5, M= 7514752,P= 7514912 Q= 7515552
+LOOP3 test2= 6, M= 7514752,P= 7514944 Q= 7515552
+LOOP3 test2= 7, M= 7514752,P= 7514976 Q= 7515552
+LOOP3 test2= 8, M= 7514752,P= 7515008 Q= 7515552
+LOOP3 test2= 9, M= 7514752,P= 7515040 Q= 7515552
+LOOP3 test2= 10, M= 7514752,P= 7515072 Q= 7515552
+LOOP3 test2= 11, M= 7514752,P= 7515104 Q= 7515552
+LOOP3 test2= 12, M= 7514752,P= 7515136 Q= 7515552
+LOOP3 test2= 13, M= 7514752,P= 7515168 Q= 7515552
+LOOP3 test2= 14, M= 7514752,P= 7515200 Q= 7515552
+LOOP3 test2= 15, M= 7514752,P= 7515232 Q= 7515552
+LOOP3 test2= 16, M= 7514752,P= 7515264 Q= 7515552
+LOOP3 test2= 17, M= 7514752,P= 7515296 Q= 7515552
+LOOP3 test2= 18, M= 7514752,P= 7515328 Q= 7515552
+LOOP3 test2= 19, M= 7514752,P= 7515360 Q= 7515552
+LOOP3 test2= 20, M= 7514752,P= 7515392 Q= 7515552
+LOOP3 test2= 21, M= 7514752,P= 7515424 Q= 7515552
+LOOP3 test2= 22, M= 7514752,P= 7515456 Q= 7515552
+LOOP3 test2= 23, M= 7514752,P= 7515488 Q= 7515552
+LOOP3 test2= 24, M= 7514752,P= 7515520 Q= 7515552
+Make Output end
+
+n= 3
+1 S= 20500 V= 20500 
+2 S= 2026402484 V= 2026402480 
+DS= 2026402484 
+---End ramp fitting using 3 samples-------------------
+
+
+OUT width= 20500, height= 2050                       //[comment] the adress of parameters such as 'width' and 'height' confict with 'S' and 'V' from Intehral function.
+Segmentation fault
+
