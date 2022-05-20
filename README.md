@@ -17,10 +17,10 @@ To run a sample program on test data, execute:
 ```
 cd src
 (Conduct a reference pixel correction for three raw images, respectively)
-./Reference_pixel_correction_final -input ./tests/input/dark_raw1.fit  -output ../tests/output/dark_rc1   -file param-subframe-PRMIE.par -Rmode 1 1 
-./Reference_pixel_correction_final -input ./tests/input/dark_raw2.fit  -output ../tests/output/dark_rc2   -file params/param-subframe-PRMIE.par -Rmode 1 1 
-./Reference_pixel_correction_final -input ./tests/input/dark_raw3.fit  -output ../tests/output/dark_rc3   -file params/param-subframe-PRMIE.par -Rmode 1 1 
+./Reference_pixel_correction_final -input ./input/dark_raw1.fit  -output ../output/dark_rc1   -file param-subframe-PRMIE.par -Rmode 1 1 
+./Reference_pixel_correction_final -input ./input/dark_raw2.fit  -output ../output/dark_rc2   -file param-subframe-PRMIE.par -Rmode 1 1 
+./Reference_pixel_correction_final -input ./input/dark_raw3.fit  -output ../output/dark_rc3   -file param-subframe-PRMIE.par -Rmode 1 1 
 
 (Conduct sampling up-the-ramp using three raw images and obtain one resultant image)
-./Up-the-Ramp_final_icc -input ../tests/output/dark_rc1 ../tests/output/dark_rc2 ../tests/output/dark_rc3 -output ../tests/output/dark_ramp1 
+./Up-the-Ramp_final_icc -input ../output/dark_rc1 ../output/dark_rc2 ../output/dark_rc3 -output ../output/dark_ramp1 
 ```
