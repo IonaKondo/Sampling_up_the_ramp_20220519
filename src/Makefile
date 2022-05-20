@@ -60,93 +60,15 @@ fitssubtract : fitssubtract.cpp $(OBJS)
 fitscombine : fitscombine.cpp $(OBJS)
 	${CPP} $(CFLAGS) -o fitscombine fitscombine.cpp $(MODS)
 
-ReferencePixelCorrect : ReferencePixelCorrect.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o ReferencePixelCorrect ReferencePixelCorrect.cpp $(MODS)
-
-ReferencePixelCorrect_iona_omp : ReferencePixelCorrect_iona_omp.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o ReferencePixelCorrect_iona_omp ReferencePixelCorrect_iona_omp.cpp $(MODS)
-
-ReferencePixelCorrect_iona_test : ReferencePixelCorrect_iona_test.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o ReferencePixelCorrect_iona_test ReferencePixelCorrect_iona_test.cpp $(MODS)
-
 Reference_pixel_correction_final : Reference_pixel_correction_final.cpp $(OBJS)
 	${CPP} $(CFLAGS) -o Reference_pixel_correction_final Reference_pixel_correction_final.cpp $(MODS)
-
-Up-the-Ramp_test : Up-the-Ramp_test.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o Up-the-Ramp_test Up-the-Ramp_test.cpp $(MODS)
-
-Up-the-Ramp_test3 : Up-the-Ramp_test3.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o Up-the-Ramp_test3 Up-the-Ramp_test3.cpp $(MODS)
-
-SampleProgram3_20201210 : SampleProgram3_20201210.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o SampleProgram3_20201210 SampleProgram3_20201210.cpp $(MODS)
-
-SampleProgram3G_20201210 : SampleProgram3G_20201210.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o SampleProgram3G_20201210 SampleProgram3G_20201210.cpp $(MODS)
-
-SampleProgram4_20201212 : SampleProgram4_20201212.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o SampleProgram4_20201212 SampleProgram4_20201212.cpp $(MODS)
-
-SampleProgram4test_20201212 : SampleProgram4test_20201212.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o SampleProgram4test_20201212 SampleProgram4test_20201212.cpp $(MODS)
-
-SampleProgram4_omp : SampleProgram4_omp.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram4_omp SampleProgram4_omp.cpp $(MODS)
-
-SampleProgram5 : SampleProgram5.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram5 SampleProgram5.cpp $(MODS)
-
-SampleProgram5_double : SampleProgram5_double.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram5_double SampleProgram5_double.cpp $(MODS)
-
-SampleProgram5_wobit : SampleProgram5_wobit.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram5_wobit SampleProgram5_wobit.cpp $(MODS)
-
-SampleProgram6 : SampleProgram6.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram6 SampleProgram6.cpp $(MODS)
-
-SampleProgram7 : SampleProgram7.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram7 SampleProgram7.cpp $(MODS)
-
-
-SampleProgram9 : SampleProgram9.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram9 SampleProgram9.cpp $(MODS)
-
-Up-the-ramp_float : Up-the-ramp_float.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o Up-the-ramp_float Up-the-ramp_float.cpp $(MODS)
-
-
-Up-the-ramp_float_test : Up-the-ramp_float_test.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o Up-the-ramp_float_test Up-the-ramp_float_test.cpp $(MODS)
-
-
-
-SampleProgram9.int : SampleProgram9.int.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram9.int SampleProgram9.int.cpp $(MODS)
-
-SampleProgram10_testPALA : SampleProgram10_testPALA.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram10_testPALA SampleProgram10_testPALA.cpp $(MODS)
-
-SampleProgram10_testPALA_test : SampleProgram10_testPALA_test.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o SampleProgram10_testPALA_test SampleProgram10_testPALA_test.cpp $(MODS)
-
-Up-the-Ramp_final_test : Up-the-Ramp_final_test.cpp $(OBJS)
-	${CPP} $(CFLAGS) $(OMP) -o Up-the-Ramp_final_test Up-the-Ramp_final_test.cpp $(MODS)
 
 
 Up-the-Ramp_final_icc : Up-the-Ramp_final_icc.cpp $(OBJS)
 	${CPP} $(CFLAGS) $(OMP) -o Up-the-Ramp_final_icc Up-the-Ramp_final_icc.cpp $(MODS)
 
-Up-the-Ramp_iona : Up-the-Ramp_iona.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o Up-the-Ramp_iona Up-the-Ramp_iona.cpp $(MODS)
+tests: Reference_pixel_correction_final Up-the-Ramp_final_icc
 
-Up-the-Ramp_iona_omp : Up-the-Ramp_iona_omp.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o Up-the-Ramp_iona_omp Up-the-Ramp_iona_omp.cpp $(MODS)
-
-Up-the-Ramp_iona_4k4k : Up-the-Ramp_iona_4k4k.cpp $(OBJS)
-	${CPP} $(CFLAGS) -o Up-the-Ramp_iona_4k4k Up-the-Ramp_iona_4k4k.cpp $(MODS)
-
-Up-the-Ramp_iona : Up-the-Ramp_iona.cpp $(OBJS)
 fitsmkresponse : fitsmkresponse.cpp $(OBJS)
 	${CPP} $(CFLAGS) -o fitsmkresponse fitsmkresponse.cpp $(MODS)
 
