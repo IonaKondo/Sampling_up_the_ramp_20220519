@@ -16,8 +16,11 @@ To compile code with set of sample programs:
 To run a sample program on test data, execute:
 ```
 cd src
-./SampleProgram4_20201212 -frame ../tests/input/make_fits11.fits ../tests/input/make_fits12.fits ../tests/input/make_fits13.fits -out ../tests/output/output4.fits
+(Conduct a reference pixel correction for three raw images, respectively)
+./Reference_pixel_correction_final -input ./tests/input/dark_raw1.fit  -output ../tests/output/dark_rc1   -file param-subframe-PRMIE.par -Rmode 1 1 
+./Reference_pixel_correction_final -input ./tests/input/dark_raw2.fit  -output ../tests/output/dark_rc2   -file params/param-subframe-PRMIE.par -Rmode 1 1 
+./Reference_pixel_correction_final -input ./tests/input/dark_raw3.fit  -output ../tests/output/dark_rc3   -file params/param-subframe-PRMIE.par -Rmode 1 1 
 
-./Up-the-ramp_float -frame (input fitsfile1) (input fitsfile2) (input fitsfile3)  -out (outputS fitsfile) (outputV)
-./Up-the-ramp_float -frame ../tests/input/DarkN1-0.fit.ref ../tests/input/DarkN2-0.fit.ref ../tests/input/DarkN3-0.fit.ref -out ../tests/output/output_float_S.fits ../tests/output/output_float_V.fits
+(Conduct sampling up-the-ramp using three raw images and obtain one resultant image)
+./Up-the-Ramp_final_icc -input ../tests/output/dark_rc1 ../tests/output/dark_rc2 ../tests/output/dark_rc3 -output ../tests/output/dark_ramp1 
 ```
